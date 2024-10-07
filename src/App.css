@@ -1,0 +1,127 @@
+body {
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  body.dark {
+    background-color: #1a1a1a; /* Dark background */
+    color: white; /* Change text color to white */
+  }
+
+.sidebar{
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 10px;
+    /* background-color:#f0f4f9; */
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+
+}
+
+.sidebar-div{
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 10px;
+    background-color:#f0f4f9;
+    border-top-right-radius: 35px; 
+    border-bottom-right-radius: 35px;
+
+}
+
+.sidebar-div-dark{
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 10px;
+    background-color: #2c2c2c; 
+    /* border-top-right-radius: 35px; 
+    border-bottom-right-radius: 35px; */
+}
+
+
+.sidebar-dark {
+    background-color: #2c2c2c; /* Dark mode background for sidebar */
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 10px;
+    border-top-right-radius: 35px; 
+    border-bottom-right-radius: 35px;
+}
+
+.sidebar .menu{
+    display: block;
+    margin-left: 10px;
+    cursor: pointer;border-radius: 15px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+.sidebar-div .menu{
+    display: block;
+    margin-left: 10px;
+    cursor: pointer;border-radius: 15px;
+    padding: 8px;
+}
+
+
+
+.sidebar-div .top .sub_icons {
+    cursor: pointer;
+}
+.sidebar-div .bottom .sub_icons{
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.sidebar-div .bottom .sub_icons:hover{
+    background-color: rgb(203 213 225);
+}
+
+
+.sidebar-div .top {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar-div .bottom {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* .sidebar .bottom .bottom-icons{
+    display: flex;
+    gap: 8px;
+    background-color: rgb(226 232 240);
+    border-radius: 9px;
+    padding: 2px;
+} */
+
+
+
+.sidebar-div .dark-sub_icons {
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+    border-radius: 15px;
+    padding: 8px;
+    color: white; /* Icon color in dark mode */
+}
+  
+.greet{
+    background: -webkit-linear-gradient(20deg, #0554d2, #e32b1a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
