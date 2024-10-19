@@ -1,3 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+
 body {
     transition: background-color 0.3s, color 0.3s; /* Smooth transition */
   }
@@ -58,7 +75,7 @@ body {
     display: block;
     margin-left: 10px;
     cursor: pointer;border-radius: 15px;
-    padding: 8px;
+    padding-top: 8px;
     border-radius: 10px;
 }
 
@@ -83,9 +100,9 @@ body {
     padding: 8px;
 }
 
-.sidebar-div .bottom .sub_icons:hover{
+/* .sidebar-div .bottom .sub_icons:hover{
     background-color: rgb(203 213 225);
-}
+} */
 
 
 .sidebar-div .top {
@@ -124,4 +141,6 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-  
+
+
+

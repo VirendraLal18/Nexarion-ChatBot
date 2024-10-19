@@ -66,6 +66,7 @@ module.exports = {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
         },
+
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
@@ -84,6 +85,10 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
         aurora: "aurora 60s linear infinite",
       },
+      boxShadow: {
+        'custom-light': '0 0 5px rgba(255, 255, 255, 0.4)', // white-ish shadow
+        'custom-dark': '0 0 5px rgba(0, 0, 0, 0.6)',         // dark shadow
+      }
     },
   },
   plugins: [require("tailwindcss-animate"), addVariablesForColors],
